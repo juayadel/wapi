@@ -16,7 +16,7 @@ public class whatsAppController {
 
     @PostMapping("")
     public ResponseEntity<String> hookNotification(@RequestParam(value = "notification") Notification name) {
-        return ResponseEntity.ok("Hola " + name);
+        return ResponseEntity.ok("Hi whatsApp notification");
     }
 
     @GetMapping("")
